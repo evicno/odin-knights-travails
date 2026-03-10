@@ -1,4 +1,3 @@
-import { knightMoves, getMovesList } from './knights-travails.js';
+import { knightMoves } from './knights-travails.js';
 
-console.log(getMovesList(3, 3));
-console.log(getMovesList(0, 0));
+knightMoves([0, 0], [6, 6]);
